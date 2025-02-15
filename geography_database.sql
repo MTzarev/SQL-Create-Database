@@ -690,7 +690,6 @@ CREATE TABLE IF NOT EXISTS `peaks` (
   CONSTRAINT `fk_peaks_mountains` FOREIGN KEY (`mountain_id`) REFERENCES `mountains` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=110 DEFAULT CHARSET=utf8;
 
-
 /*!40000 ALTER TABLE `peaks` DISABLE KEYS */;
 INSERT INTO `peaks` (`id`, `peak_name`, `elevation`, `mountain_id`) VALUES
 	(62, 'Aconcagua', 6962, 3),
