@@ -677,8 +677,6 @@ INSERT INTO `mountains_countries` (`mountain_id`, `country_code`) VALUES
 	(1, 'US');
 /*!40000 ALTER TABLE `mountains_countries` ENABLE KEYS */;
 
-
-
 CREATE TABLE IF NOT EXISTS `peaks` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `peak_name` varchar(50) NOT NULL,
