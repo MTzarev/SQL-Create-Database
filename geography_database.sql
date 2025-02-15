@@ -744,7 +744,6 @@ INSERT INTO `peaks` (`id`, `peak_name`, `elevation`, `mountain_id`) VALUES
 /*!40000 ALTER TABLE `peaks` ENABLE KEYS */;
 
 
-
 CREATE TABLE IF NOT EXISTS `rivers` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `river_name` varchar(50) NOT NULL,
