@@ -13,7 +13,6 @@ CREATE TABLE IF NOT EXISTS `continents` (
   UNIQUE KEY `PK_Continents` (`continent_code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-
 /*!40000 ALTER TABLE `continents` DISABLE KEYS */;
 INSERT INTO `continents` (`continent_code`, `continent_name`) VALUES
 	('AF', 'Africa'),
