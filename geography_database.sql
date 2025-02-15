@@ -43,7 +43,6 @@ CREATE TABLE IF NOT EXISTS `countries` (
   CONSTRAINT `fk_countries_currencies` FOREIGN KEY (`currency_code`) REFERENCES `currencies` (`currency_code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-
 /*!40000 ALTER TABLE `countries` DISABLE KEYS */;
 INSERT INTO `countries` (`country_code`, `iso_code`, `country_name`, `currency_code`, `continent_code`, `population`, `are_in_sq_km`, `capital`) VALUES
 	('AD', 'AND', 'Andorra', 'EUR', 'EU', 84000, 468, 'Andorra la Vella'),
