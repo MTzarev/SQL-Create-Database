@@ -416,7 +416,6 @@ INSERT INTO `countries_rivers` (`river_id`, `country_code`) VALUES
 /*!40000 ALTER TABLE `countries_rivers` ENABLE KEYS */;
 
 
-
 CREATE TABLE IF NOT EXISTS `currencies` (
   `currency_code` char(3) NOT NULL,
   `description` varchar(200) NOT NULL,
