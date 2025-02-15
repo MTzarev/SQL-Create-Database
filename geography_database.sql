@@ -752,7 +752,6 @@ CREATE TABLE IF NOT EXISTS `rivers` (
   UNIQUE KEY `PK_Rivers` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
 
-
 /*!40000 ALTER TABLE `rivers` DISABLE KEYS */;
 INSERT INTO `rivers` (`id`, `river_name`, `length`, `drainage_area`, `average_discharge`, `outflow`) VALUES
 	(1, 'Nile', 6650, 3254555, 5100, 'Mediterranean'),
