@@ -7,7 +7,6 @@
 CREATE DATABASE IF NOT EXISTS `geography` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `geography`;
 
-
 CREATE TABLE IF NOT EXISTS `continents` (
   `continent_code` char(2) NOT NULL,
   `continent_name` varchar(50) NOT NULL,
